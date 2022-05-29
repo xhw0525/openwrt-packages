@@ -33,6 +33,7 @@
 #### 使用
 一键命令
 ```yaml
+# openwrt固件地址 https://github.com/coolsnowwolf/lede
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 git pull
